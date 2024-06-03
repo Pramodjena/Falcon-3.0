@@ -16,3 +16,11 @@
 - `"start": "nodemon index.js"`
 
 - run the server using `npm start`
+
+## How to run the backend project using the following script
+
+1. `"dev": "node index.js"`,
+2. `"start": "nodemon index.js"`
+
+3. npm run dev
+4. npm run start (nodemon)

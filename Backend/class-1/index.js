@@ -1,5 +1,6 @@
 // Import required file:
 const http = require("http");
+const os = require("os");
 
 // console.log(http);
 
@@ -9,6 +10,10 @@ const server = http.createServer((req, res) => {
     res.end("Hello from the home side");
   } else if (req.url === "/about") {
     res.end("Hello from the about side");
+  } else if (req.url === "/name") {
+    res.end("Hello my name is Pramod");
+  } else {
+    res.end("404 not found");
   }
 });
 
